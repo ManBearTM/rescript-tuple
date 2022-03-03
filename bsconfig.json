@@ -1,0 +1,21 @@
+{
+  "name": "rescript-project-template",
+  "namespace": "Tuple",
+  "version": "0.0.1",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+    {
+      "dir": "tests",
+      "subdirs": true,
+      "type": "dev"
+    }
+  ],
+  "suffix": ".bs.js",
+  "bs-dependencies": [],
+  "bs-dev-dependencies": [
+    "rescript-test"
+  ]
+}

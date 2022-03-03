@@ -1,0 +1,25 @@
+{
+  "name": "rescript-tuple",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "build": "rescript",
+    "clean": "rescript clean -with-deps",
+    "start": "rescript build -w",
+    "test": "retest 'lib/js/tests/**/*.test.bs.js'"
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManBearTM/rescript-tuple.git"
+  },
+  "license": "Unlicense",
+  "dependencies": {
+    "rescript": "^9.1.4"
+  },
+  "devDependencies": {
+    "rescript-test": "^3.2.0"
+  }
+}
