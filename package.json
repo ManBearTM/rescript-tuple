@@ -16,10 +16,8 @@
     "url": "git+https://github.com/ManBearTM/rescript-tuple.git"
   },
   "license": "Unlicense",
-  "dependencies": {
-    "rescript": "^9.1.4"
-  },
   "devDependencies": {
+    "rescript": "^9.1.4",
     "rescript-test": "^3.2.0"
   }
 }
