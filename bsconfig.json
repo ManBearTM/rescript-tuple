@@ -1,7 +1,6 @@
 {
-  "name": "rescript-project-template",
-  "namespace": "Tuple",
-  "version": "0.0.1",
+  "name": "rescript-tuple",
+  "version": "1.0.0",
   "sources": [
     {
       "dir": "src",
