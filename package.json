@@ -1,7 +1,7 @@
 {
   "name": "rescript-tuple",
   "version": "1.0.0",
-  "description": "",
+  "description": "Helpers for improved ergonomics when working with 2-tuples.",
   "scripts": {
     "build": "rescript",
     "clean": "rescript clean -with-deps",
