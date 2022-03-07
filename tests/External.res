@@ -46,3 +46,8 @@ test("map", () => {
   let pair = (1, 2)->Tuple.map(x => x + 1)
   (2, 3)->equals(pair)
 })
+
+test("join", () => {
+  let pair = ("hi", "there")->Tuple.join(" ")
+  pair->equals("hi there")
+})

@@ -19,6 +19,9 @@ external second: (('a, 'b)) => 'b = "1"
 @send @ocaml.doc(`Transform each value in a tuple.`)
 external map: (('a, 'a), 'a => 'b) => ('b, 'b) = "map"
 
+@send @ocaml.doc(`Join together two strings in a tuple with a given separator.`)
+external join: ((string, string), string) => string = "join"
+
 @ocaml.doc(`Transform the first value in a tuple.`)
 let mapFirst = (couple, project) => (couple->first->project, couple->second)
 
